@@ -22,11 +22,17 @@ nav ul li a {
     color: white;
 }
 
+nav ul li {
+    min-width: fit-content;
+    margin: 0px 15px
+}
+
 nav ul li a {
     text-decoration: none;
     opacity: 0.9;
 }
 
 nav span p {
-    font-size: 1.2em;
+    font-size: 1.3em;
+    font-weight: bolder;
 }

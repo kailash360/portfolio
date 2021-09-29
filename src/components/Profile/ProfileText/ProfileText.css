@@ -1,13 +1,31 @@
 .profile-text {
-    height: 100%;
-    width: 60%;
-    background-color: rgba(255, 255, 255, 0.61);
+    height: 500px;
+    width: 100%;
+    background-color: #ffffff36;
+    padding: 10px;
+    padding-left: 6%;
+    padding-top: 8%;
+    margin-top: -100px;
 }
 
-.profile-text:first-child {
+.profile-text h1 {
     color: white;
+    font-size: 4em;
+    animation: profile-text-animation 0.7s ease-in;
 }
 
-.profile-text:last-child {
+.profile-text p {
     color: white;
+    width: 70%;
+}
+
+@keyframes profile-text-animation {
+    0% {
+        padding-top: 150px;
+        opacity: 0;
+    }
+    100% {
+        padding-top: 0px;
+        opacity: 1;
+    }
 }
