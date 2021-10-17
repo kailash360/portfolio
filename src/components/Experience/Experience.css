@@ -1,0 +1,13 @@
+.experience {
+    color: white;
+    padding: 3rem;
+}
+
+.experience_cards_section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+}
