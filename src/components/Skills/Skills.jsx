@@ -1,10 +1,10 @@
 import React from 'react'
 import './Skills.css'
-import Pll from 'react-pll'
+import {ReactComponent as Python} from '../../static/icons/python.svg'
 
 function Skills() {
 
-    const icons = ["python","cpp","javascript","flask","node","express","react","redux","mongodb","mongoose","mysql","postgresql","git","github","docker"]
+    const icons = [<Python/>]
 
     return (
         <div className="skills">
@@ -14,7 +14,7 @@ function Skills() {
                 </p>
             </div>
             <div className="skill_icons_section">
-                {icons.map(language=><Pll height={50} language={language} />)}
+                {icons.map(language=>language)}
             </div>
         </div>
     )
