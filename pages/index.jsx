@@ -6,13 +6,27 @@ import Profile from '../components/Profile/Profile'
 import Skills from '../components/Skills/Skills'
 import Experience from '../components/Experience/Experience'
 import Projects from '../components/Projects/Projects'
+import Blogs from '../components/Blogs/Blogs'   
 
-export default function Home() {
+
+export async function getStaticProps(context) {
+
+    let response = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@kailash360`)
+    response = await response.json()
+    let blogs = response.items
+
+    return {
+      props: {blogs}, // will be passed to the page component as props
+    }
+}
+
+export default function Home({blogs}) {
     return ( <>
     <Navbar/>
     <Profile/>
     <Skills/>
     <Experience/>
     <Projects/>
+    <Blogs blogs={blogs} />
 </>)
 }
