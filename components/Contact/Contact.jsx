@@ -39,7 +39,7 @@ function Contact() {
         <div className={styles.contact}>
             <div className={styles.left}>
                 <h2>Get in touch</h2>
-                <p>If you've got a project in mind, why not get in touch.<br/> Let's work together.</p>
+                <p>If you&apos;ve got a project in mind, why not get in touch.<br/> Let&apos;s work together.</p>
                 <div className={styles.links}>
                     {links.map(link => <Link key={link.name} name={link.name} icon={link.icon} link={link.link} ></Link> )}
                 </div>
