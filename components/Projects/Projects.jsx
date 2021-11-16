@@ -45,6 +45,7 @@ function Projects() {
             {
                 projects.map((project,index) =>
                 <Card
+                    key = {index}
                     index = {index}
                     name = {project.name}
                     description = {project.description}
