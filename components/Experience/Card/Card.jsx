@@ -10,7 +10,7 @@ function ExperienceCard({key,index,role,company,from,to,activities}) {
             <h4 className={styles.duration}>{from + "-" + to}</h4>
             <h4>What I did?</h4>
             <ul className={styles.activities}>
-                {activities.map(activity=> <li>{activity}</li>)}
+                {activities.map(activity=> <li key={activity}>{activity}</li>)}
             </ul>
         </div>
     )
