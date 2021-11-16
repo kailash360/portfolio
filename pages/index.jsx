@@ -7,7 +7,7 @@ import Skills from '../components/Skills/Skills'
 import Experience from '../components/Experience/Experience'
 import Projects from '../components/Projects/Projects'
 import Blogs from '../components/Blogs/Blogs'   
-
+import Contact from '../components/Contact/Contact'
 
 export async function getStaticProps(context) {
 
@@ -28,5 +28,6 @@ export default function Home({blogs}) {
     <Experience/>
     <Projects/>
     <Blogs blogs={blogs} />
+    <Contact/>
 </>)
 }
