@@ -1,0 +1,38 @@
+.nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav span,
+.nav ul {
+    padding: 10px 20px;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav span,
+.nav ul li a {
+    color: white;
+}
+
+.nav ul li {
+    min-width: fit-content;
+    margin: 0px 15px
+}
+
+.nav ul li a {
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+.nav span p {
+    font-size: 1.3em;
+    font-weight: bolder;
+}
