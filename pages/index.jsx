@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar/Navbar'
 import Profile from '../components/Profile/Profile'
 import Skills from '../components/Skills/Skills'
 import Experience from '../components/Experience/Experience'
+import Projects from '../components/Projects/Projects'
 
 export default function Home() {
     return ( <>
@@ -12,5 +13,6 @@ export default function Home() {
     <Profile/>
     <Skills/>
     <Experience/>
+    <Projects/>
 </>)
 }
