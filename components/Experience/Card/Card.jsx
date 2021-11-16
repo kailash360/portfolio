@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../../../styles/Experience.module.css'
 
-function ExperienceCard({index,role,company,from,to,activities}) {
+function ExperienceCard({key,index,role,company,from,to,activities}) {
     return (
         <div className={styles.experienceCard}>
             <p className={styles.card_number}>{index<10?("0"+index):index}</p>

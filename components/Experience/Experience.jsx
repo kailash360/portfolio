@@ -19,6 +19,7 @@ function Experience() {
             <div className={styles.experience_cards_section}>
             {experience.map((job,index) => 
                 <Card
+                    key={index}
                     index={index+1}
                     company={job.company}
                     role={job.role}
