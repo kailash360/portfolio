@@ -7,7 +7,7 @@ function Projects() {
     {
         name:'Snap Stock',
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repudiandae officia adipisci. Impedit ipsa dignissimos dolorem omnis id reiciendis quidem non velit consequatur vel pariatur maiores quos, iste expedita est.',
-        image:'https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg',
+        image: '/Projects/sample.jfif',
         github: 'https://github.com/kailash360/Snap-Stock',
         hosted: false,
         host_link: 'https://github.com/kailash360/Snap-Stock'
@@ -15,7 +15,7 @@ function Projects() {
     {
         name:'Snap Stock',
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repudiandae officia adipisci. Impedit ipsa dignissimos dolorem omnis id reiciendis quidem non velit consequatur vel pariatur maiores quos, iste expedita est.',
-        image:'https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg',
+        image: '/Projects/sample.jfif',
         github: 'https://github.com/kailash360/Snap-Stock',
         hosted: true,
         host_link: 'https://github.com/kailash360/Snap-Stock'
@@ -23,7 +23,7 @@ function Projects() {
     {
         name:'Snap Stock',
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repudiandae officia adipisci. Impedit ipsa dignissimos dolorem omnis id reiciendis quidem non velit consequatur vel pariatur maiores quos, iste expedita est.',
-        image:'https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg',
+        image: '/Projects/sample.jfif',
         github: 'https://github.com/kailash360/Snap-Stock',
         hosted: false,
         host_link: 'https://github.com/kailash360/Snap-Stock'
@@ -31,7 +31,7 @@ function Projects() {
     {
         name:'Snap Stock',
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repudiandae officia adipisci. Impedit ipsa dignissimos dolorem omnis id reiciendis quidem non velit consequatur vel pariatur maiores quos, iste expedita est.',
-        image:'https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg',
+        image: '/Projects/sample.jfif',
         github: 'https://github.com/kailash360/Snap-Stock',
         hosted: true,
         host_link: 'https://github.com/kailash360/Snap-Stock'

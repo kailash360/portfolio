@@ -14,7 +14,7 @@ function Card({key,index,name,description,image,github,hosted,host_link}) {
                 </div>
             </div>
             <div className={styles.right}>
-                <Image src={image} alt="" />
+                <Image src={image} height={300} width={500} />
             </div>
         </div>
     )

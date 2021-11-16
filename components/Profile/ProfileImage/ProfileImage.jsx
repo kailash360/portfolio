@@ -5,7 +5,7 @@ import Image from 'next/image'
 function ProfileImage() {
     return (
         <div className={styles.profileImage} >
-            <Image src="/Profile/profile-image2.jpeg" alt="" />
+            <Image src="/Profile/profile-image2.jpeg" height={320} width={300} />
         </div>
     )
 }
