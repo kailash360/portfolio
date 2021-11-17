@@ -27,13 +27,22 @@
     margin-top: -100px;
 }
 
-.profileText h1 {
+.profileText h1,
+.profileText h2 {
     color: white;
-    font-size: 4em;
     animation: profile-text-animation 0.7s ease-in;
 }
 
+.profileText h1 {
+    font-size: 4em;
+}
+
+.profileText h2 {
+    font-size: 2.4em
+}
+
 .profileText p {
+    margin-top: 3rem;
     color: white;
     width: 70%;
 }
