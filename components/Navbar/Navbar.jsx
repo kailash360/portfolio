@@ -18,7 +18,7 @@ function Navbar({handleScroll}) {
         <nav className={styles.nav} >
             <span>
                 <p>
-                    Kailash Kejriwal
+                𝓚𝓪𝓲𝓵𝓪𝓼𝓱 𝓚𝓮𝓳𝓻𝓲𝔀𝓪𝓵
                 </p>
             </span>
             <ul>

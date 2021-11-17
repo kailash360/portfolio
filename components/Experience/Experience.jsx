@@ -9,13 +9,13 @@ function Experience() {
         role:"Full Stack Developer",
         from:"August 2021",
         to:"Present",
-        activities:["Lorem Ipsum", "Lorem Ipsum dolor sit", "Lorem Ipsum dolor sit", "Lorem Ipsum dolor"]
+        color:"blue"
     }]
 
     return (
         <div className={styles.experience} name="experience" id="experience">
-                <h4>Work Experience</h4>
-                <h1>Companies that I have worked for</h1>
+                <h1>Work Experience</h1>
+                <p>These are the companies that I have worked for.</p>
                 <div className={styles.experience_cards_section}>
                 {experience.map((job,index) => 
                     <Card
@@ -25,7 +25,7 @@ function Experience() {
                         role={job.role}
                         from={job.from}
                         to={job.to}
-                        activities={job.activities}
+                        color={job.color}
                     />
                 )}
                 </div>
