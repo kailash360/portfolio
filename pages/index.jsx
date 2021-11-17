@@ -8,6 +8,7 @@ import Experience from '../components/Experience/Experience'
 import Projects from '../components/Projects/Projects'
 import Blogs from '../components/Blogs/Blogs'   
 import Contact from '../components/Contact/Contact'
+import Script from 'next/script'
 
 export async function getStaticProps(context) {
 
@@ -40,6 +41,6 @@ export default function Home({blogs}) {
     <Projects/>
     <Blogs blogs={blogs} />
     <Contact/>
-    <script src="https://kit.fontawesome.com/2c32a0aecc.js" crossorigin="anonymous"></script>
+    <Script src="https://kit.fontawesome.com/2c32a0aecc.js" crossOrigin="anonymous"></Script>
   </>)
 }

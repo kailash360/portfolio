@@ -14,7 +14,7 @@ function ProfileText() {
                 <br/>Although I expertize the full-stack development, I prefer to work on the backend of any application.
                 <br/> I am also interested in Blockchain development, and have created several DApps by myself.
             </p>
-            <a href = {process.env.RESUME_LINK} target="_blank" without rel="noreferrer" className={styles.a} >Download CV &nbsp; <i class="fas fa-cloud-download-alt fa-md"></i></a>
+            <a href = {process.env.RESUME_LINK} target="_blank" without rel="noreferrer" className={styles.a} >Download CV &nbsp; <i className="fas fa-cloud-download-alt fa-md"></i></a>
         </div>
     )
 }
