@@ -13,7 +13,7 @@ function Card({key,index,name,description,image,github,hosted,host_link}) {
                     <a href={host_link} target="_blank" without rel="noreferrer"  style={{display:hosted?'block':'none'}}>See Live</a>
                 </div>
             </div>
-            <div className={styles.right}>
+            <div className={styles.right} style={{textAlign:index%2?'right':'left'}}>
                 <Image src={image} height={300} width={500} />
             </div>
         </div>

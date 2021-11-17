@@ -4,10 +4,18 @@
     padding: 0px 5rem;
 }
 
-.projects h2,
+.projects h1,
 .projects h4,
 .projects p {
     color: white;
+}
+
+.projects_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem 0px;
 }
 
 .card {
@@ -16,7 +24,17 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin: 1rem 0px;
+    padding: 5px 10px;
     /* ******Glass effect to be applied here*********  */
+    background: rgba( 255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 3px);
+    -webkit-backdrop-filter: blur( 3px);
+}
+
+.card h2 {
+    color: white;
 }
 
 .left {
@@ -42,6 +60,7 @@
     text-decoration: none;
     padding: 10px 20px;
     font-size: 1.05em;
+    min-width: 150px;
 }
 
 .button_section a:first-child {
@@ -58,9 +77,11 @@
 
 .right {
     width: 50%;
+    height: 100%;
 }
 
 .right img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    margin-bottom: -5px !important;
 }
