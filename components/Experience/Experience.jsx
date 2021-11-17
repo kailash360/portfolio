@@ -9,7 +9,8 @@ function Experience() {
         role:"Full Stack Developer",
         from:"August 2021",
         to:"Present",
-        color:"blue"
+        color:"linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%)",
+        logo:'https://infuzex.in/images/logo/infuzex-logo-tp-2.png'
     }]
 
     return (
@@ -26,6 +27,7 @@ function Experience() {
                         from={job.from}
                         to={job.to}
                         color={job.color}
+                        logo = {job.logo}
                     />
                 )}
                 </div>
