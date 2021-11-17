@@ -1,3 +1,4 @@
+import {useEffect} from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
@@ -9,6 +10,8 @@ import Projects from '../components/Projects/Projects'
 import Blogs from '../components/Blogs/Blogs'   
 import Contact from '../components/Contact/Contact'
 import Script from 'next/script'
+import Particles from 'react-tsparticles'
+const particleOptions = require('../utils/particles.json')
 
 export async function getStaticProps(context) {
 
@@ -33,14 +36,17 @@ export default function Home({blogs}) {
     })
   }
 
+    console.log(particleOptions)
+
     return ( <>
-    <Navbar handleScroll={handleScroll} />
-    <Profile/>
-    <Skills/>
-    <Experience/>
-    <Projects/>
-    <Blogs blogs={blogs} />
-    <Contact/>
-    <Script src="https://kit.fontawesome.com/2c32a0aecc.js" crossOrigin="anonymous"></Script>
-  </>)
+      <Particles id="tsparticles" options={particleOptions} />
+      <Navbar handleScroll={handleScroll} />
+      <Profile/>
+      <Skills/>
+      <Experience/>
+      <Projects/>
+      <Blogs blogs={blogs} />
+      <Contact/>
+      <Script src="https://kit.fontawesome.com/2c32a0aecc.js" crossOrigin="anonymous"></Script>
+    </>)
 }
