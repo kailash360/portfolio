@@ -42,9 +42,26 @@
 }
 
 .profileText p {
-    margin-top: 3rem;
+    margin: 1.5rem 0px;
     color: white;
     width: 70%;
+}
+
+.a {
+    background-color: transparent;
+    outline: none;
+    color: white;
+    border: 1px solid white;
+    font-size: 1.1em;
+    padding: 9px 13px;
+    cursor: pointer;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+.a:hover {
+    background-color: white;
+    color: rgb(53, 52, 52);
 }
 
 @keyframes profile-text-animation {

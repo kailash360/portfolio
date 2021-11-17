@@ -40,5 +40,6 @@ export default function Home({blogs}) {
     <Projects/>
     <Blogs blogs={blogs} />
     <Contact/>
+    <script src="https://kit.fontawesome.com/2c32a0aecc.js" crossorigin="anonymous"></script>
   </>)
 }
