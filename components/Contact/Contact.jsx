@@ -36,7 +36,7 @@ function Contact() {
     const [message,setMessage] = useState("")
 
     return (
-        <div className={styles.contact}>
+        <div className={styles.contact} id="contact">
             <div className={styles.left}>
                 <h2>Get in touch</h2>
                 <p>If you&apos;ve got a project in mind, why not get in touch.<br/> Let&apos;s work together.</p>

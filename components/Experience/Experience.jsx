@@ -13,22 +13,22 @@ function Experience() {
     }]
 
     return (
-        <div className={styles.experience}>
-            <h4>Work Experience</h4>
-            <h1>Companies that I have worked for</h1>
-            <div className={styles.experience_cards_section}>
-            {experience.map((job,index) => 
-                <Card
-                    key={index}
-                    index={index+1}
-                    company={job.company}
-                    role={job.role}
-                    from={job.from}
-                    to={job.to}
-                    activities={job.activities}
-                />
-            )}
-            </div>
+        <div className={styles.experience} name="experience" id="experience">
+                <h4>Work Experience</h4>
+                <h1>Companies that I have worked for</h1>
+                <div className={styles.experience_cards_section}>
+                {experience.map((job,index) => 
+                    <Card
+                        key={index}
+                        index={index+1}
+                        company={job.company}
+                        role={job.role}
+                        from={job.from}
+                        to={job.to}
+                        activities={job.activities}
+                    />
+                )}
+                </div>
         </div>
     )
 }

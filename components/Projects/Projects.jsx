@@ -39,7 +39,7 @@ function Projects() {
     ]
 
     return (
-        <div className={styles.projects} >
+        <div className={styles.projects} id="projects">
             <h2>Projects</h2>
             <h4>These are the projects that I have worked upon in the past few months</h4>
             {

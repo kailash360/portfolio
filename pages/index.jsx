@@ -21,13 +21,24 @@ export async function getStaticProps(context) {
 }
 
 export default function Home({blogs}) {
+
+  const handleScroll = (e) => {
+    console.log(e.target.value)
+    Scroll.scroller.scrollTo(e.target.value, {
+        duration: 1500,
+        delay: 100,
+        smooth: true,
+        containerId: 'root',
+    })
+  }
+
     return ( <>
-    <Navbar/>
+    <Navbar handleScroll={handleScroll} />
     <Profile/>
     <Skills/>
     <Experience/>
     <Projects/>
     <Blogs blogs={blogs} />
     <Contact/>
-</>)
+  </>)
 }

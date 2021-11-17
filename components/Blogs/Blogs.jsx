@@ -6,7 +6,7 @@ function Blogs(props) {
     let blogs = props.blogs
     
     return (
-        <div className={styles.blogs}>
+        <div className={styles.blogs} id="blogs">
             <h2>My blogs</h2>
             <p>I love to write technology-based articles. These are some of the blogs that I have written.</p>
             <div className={styles.blogs_section}>
