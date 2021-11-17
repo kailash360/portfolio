@@ -7,7 +7,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    background-color: black;
+    /* background-color: black; */
 }
 
 a {
@@ -28,4 +28,15 @@ h5,
 h6 {
     margin-block-start: 0px;
     margin-block-end: 0px;
+}
+
+a,
+button {
+    z-index: 99999 !important;
+}
+
+#tsparticles,
+canvas {
+    z-index: -9999 !important;
+    background-color: black;
 }

@@ -36,8 +36,6 @@ export default function Home({blogs}) {
     })
   }
 
-    console.log(particleOptions)
-
     return ( <>
       <Particles id="tsparticles" options={particleOptions} />
       <Navbar handleScroll={handleScroll} />
