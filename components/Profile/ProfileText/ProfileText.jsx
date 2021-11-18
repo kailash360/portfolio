@@ -6,14 +6,9 @@ function ProfileText() {
     return (
         <div className={styles.profileText}>
             <h1>Hello</h1>
-            <h2>I’m Kailash, <br/>
+            <h2 style={{marginBlockEnd:"5rem"}} >I’m Kailash, <br/>
                 A <Role/> <br/>
             </h2>
-            <p>
-                I am very passionate about Web Development and love to build scalable applications. 
-                <br/>Although I expertize the full-stack development, I prefer to work on the backend of any application.
-                <br/> I am also interested in Blockchain development, and have created several DApps by myself.
-            </p>
             <a href = {process.env.RESUME_LINK} target="_blank" without rel="noreferrer" className={styles.a} >Download CV &nbsp; <i className="fas fa-cloud-download-alt fa-md"></i></a>
         </div>
     )

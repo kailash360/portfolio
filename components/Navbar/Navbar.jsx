@@ -51,6 +51,7 @@ function Navbar() {
             </span>
             <ul>
                 <li><a onClick={linkClicked} title="/#profile" className="sections">Profile</a></li>
+                <li><a onClick={linkClicked} title="/#about" className="sections">About Me</a></li>
                 <li><a onClick={linkClicked} title="/#skills" className="sections">Skills</a></li>
                 <li><a onClick={linkClicked} title="/#experience" className="sections">Experience</a></li>
                 <li><a onClick={linkClicked} title="/#projects" className="sections">Projects</a></li>

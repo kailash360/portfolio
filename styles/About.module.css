@@ -1,0 +1,14 @@
+.about h1,
+.about p {
+    color: white;
+    padding: 0px 3rem;
+    padding-top: 3rem;
+}
+
+.about p {
+    font-size: 1.2em;
+}
+
+.about p a {
+    color: rgb(177, 177, 177);
+}
