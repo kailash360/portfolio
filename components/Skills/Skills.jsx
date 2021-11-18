@@ -1,8 +1,8 @@
+import React from 'react'
 import styles from'../../styles/Skills.module.css'
+const {Icons} = require('./Icons/Icons.js')
 
 function Skills() {
-
-    const icons = []
 
     return (
         <div className={styles.skills} id="skills">
@@ -12,7 +12,7 @@ function Skills() {
                 </p>
             </div>
             <div className={styles.skill_icons_section}>
-                {icons.map(language=>language)}
+                {Icons.map(language=> language.icon && React.createElement(language.icon,language.options))}
             </div>
         </div>
     )
