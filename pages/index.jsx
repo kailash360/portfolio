@@ -8,6 +8,7 @@ import Experience from '../components/Experience/Experience'
 import Projects from '../components/Projects/Projects'
 import Blogs from '../components/Blogs/Blogs'   
 import Contact from '../components/Contact/Contact'
+import Loader from '../components/Loader/Loader'
 import Script from 'next/script'
 import Particles from 'react-tsparticles'
 const particleOptions = require('../utils/particles.json')
@@ -45,5 +46,5 @@ export default function Home({blogs}) {
       <Blogs blogs={blogs} />
       <Contact/>
       <Script src="https://kit.fontawesome.com/2c32a0aecc.js" crossOrigin="anonymous"></Script>
-    </>:<p>Loading...</p>)
+    </>:<Loader/>)
 }
