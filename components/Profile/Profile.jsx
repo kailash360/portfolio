@@ -4,7 +4,7 @@ import ProfileText from './ProfileText/ProfileText'
 
 function Profile() {
     return (
-        <div className={styles.profile}>
+        <div className={styles.profile} id="profile">
             <ProfileImage></ProfileImage>
             <ProfileText></ProfileText>
         </div>

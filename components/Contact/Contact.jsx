@@ -16,7 +16,7 @@ const links = [
 {
     name:'Medium',
     icon:'/Contact/medium.svg',
-    link:'https://medium.com/kailash360'
+    link:'https://medium.com/@kailash360'
 },
 {
     name:'GitHub',

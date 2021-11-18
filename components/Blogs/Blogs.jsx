@@ -7,8 +7,10 @@ function Blogs(props) {
     
     return (
         <div className={styles.blogs} id="blogs">
-            <h2>My blogs</h2>
-            <p>I love to write technology-based articles. These are some of the blogs that I have written.</p>
+            <h1>My blogs</h1>
+            <p>I love to write technology-based articles. All of my blogs are available on <a href="https://medium.com/@kailash360">Medium.com | Kailash Kejriwal</a>
+                <br/>These are some of the blogs that I have written.
+            </p>
             <div className={styles.blogs_section}>
                 {blogs && blogs.map((blog,index)=>
                 <Card

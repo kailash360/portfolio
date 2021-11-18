@@ -2,8 +2,10 @@
     width: 100%;
     padding: 0px 4rem;
     margin: 5rem 0px;
+    padding-top: 2rem;
 }
 
+.blogs h1,
 .blogs h2,
 .blogs h3,
 .blogs p {
