@@ -37,6 +37,9 @@ export default function Home({blogs}) {
   }
 
     return ( <>
+      <Head>
+        <title>Kailash Kejriwal</title>
+      </Head>
       <Particles id="tsparticles" options={particleOptions} />
       <Navbar handleScroll={handleScroll} />
       <Profile/>

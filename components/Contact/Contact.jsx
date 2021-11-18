@@ -4,19 +4,39 @@ import Image from 'next/image'
 
 const links = [
 {
-    name:'facebook',
-    icon:'/Contact/facebook.svg',
-    link:'https://www.facebook.com'
+    name:'Gamil',
+    icon:'/Contact/gmail.svg',
+    link:'mailto:kailashkejriwal21@gmail.com'
 },
 {
-    name:'facebook',
-    icon:'/Contact/facebook.svg',
-    link:'https://www.facebook.com'
+    name:'LinkedIn',
+    icon:'/Contact/linkedin.svg',
+    link:'https://www.linkedin.com/in/kailash360/'
 },
 {
-    name:'facebook',
+    name:'Medium',
+    icon:'/Contact/medium.svg',
+    link:'https://medium.com/kailash360'
+},
+{
+    name:'GitHub',
+    icon:'/Contact/github.svg',
+    link:'https://github.com/kailash360'
+},
+{
+    name:'Facebook',
     icon:'/Contact/facebook.svg',
-    link:'https://www.facebook.com'
+    link:'https://www.facebook.com/kailash.kejriwal.360/'
+},
+{
+    name:'Instagram',
+    icon:'/Contact/instagram.svg',
+    link:'https://instagram.com/its.kailash'
+},
+{
+    name:'Twitter',
+    icon:'/Contact/twitter.svg',
+    link:'https://twitter.com/KailashK360'
 },
 ]
 
@@ -41,7 +61,7 @@ function Contact() {
                 <h2>Get in touch</h2>
                 <p>If you&apos;ve got a project in mind, why not get in touch.<br/> Let&apos;s work together.</p>
                 <div className={styles.links}>
-                    {links.map(link => <Link key={link.name} name={link.name} icon={link.icon} link={link.link} ></Link> )}
+                    {links.map(link => <Link key={link.name} name={link.name} icon={link.icon} link={link.link} target="_blank" without rel="noreferrer" ></Link> )}
                 </div>
             </div>
             <div className={styles.right}>
