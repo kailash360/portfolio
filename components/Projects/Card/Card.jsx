@@ -9,12 +9,12 @@ function Card({key,index,name,description,image,github,hosted,host_link}) {
                 <h2>{name}</h2>
                 <p>{description}</p>
                 <div className={styles.button_section}>
-                    <a href={github} target="_blank" without rel="noreferrer" >Source Code</a>
-                    <a href={host_link} target="_blank" without rel="noreferrer"  style={{display:hosted?'block':'none'}}>See Live</a>
+                    <a href={github} target="_blank" without title="View the source code of the project" rel="noreferrer" >Source Code</a>
+                    <a href={host_link} target="_blank" without title="View the working of the project" rel="noreferrer"  style={{display:hosted?'block':'none'}}>See Live</a>
                 </div>
             </div>
             <div className={styles.right} style={{textAlign:index%2?'right':'left'}}>
-                <Image src={image} height={300} width={500} />
+                <Image src={image} height={300} width={550} />
             </div>
         </div>
     )
