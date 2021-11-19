@@ -12,3 +12,17 @@
 .about p a {
     color: rgb(177, 177, 177);
 }
+
+@media screen and (max-width: 768px) {
+    .about {
+        padding: 1rem;
+        padding-top: 2rem;
+    }
+    .about h1 {
+        padding: 0px;
+    }
+    .about p {
+        padding: 0px;
+        font-size: 1.1em;
+    }
+}

@@ -76,3 +76,33 @@
         opacity: 1;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .profile {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .profileText {
+        height: 400px;
+        padding-top: 100px;
+    }
+    .profileText h1 {
+        font-size: 3em;
+    }
+    .profileText h2 {
+        font-size: 1.8em;
+        min-height: 120px;
+        margin-block-end: 2rem !important;
+    }
+    .profileImage {
+        width: 85%;
+        height: 50%;
+    }
+    .profileImage img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+}

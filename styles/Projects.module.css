@@ -122,3 +122,25 @@
     background-color: white;
     color: rgb(22, 0, 0);
 }
+
+@media screen and (max-width: 768px) {
+    .projects {
+        padding: 1rem;
+    }
+    .card {
+        flex-direction: column-reverse !important;
+    }
+    .left,
+    .right {
+        width: 100%;
+        align-items: center;
+        text-align: center !important;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .button_section a {
+        min-width: 120px;
+        font-size: 0.9em;
+    }
+}

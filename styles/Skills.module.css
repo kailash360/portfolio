@@ -33,3 +33,19 @@
     margin: 15px;
     height: auto;
 }
+
+@media screen and (max-width: 768px) {
+    .skills {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+    .skill_icons_section {
+        padding: 5px;
+    }
+    .skill_icons_section svg {
+        margin: 10px;
+    }
+}

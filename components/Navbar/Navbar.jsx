@@ -15,6 +15,7 @@ function Navbar() {
         return smoothScroll(e.target.title)
     }
 
+    //State and function to handle the transparency of navbar
     const [clientWindowHeight, setClientWindowHeight] = useState("");
 
     const [backgroundTransparacy, setBackgroundTransparacy] = useState(0);
@@ -42,6 +43,20 @@ function Navbar() {
         }
     }, [clientWindowHeight]);
 
+
+    //state and Function to handle the toggling of navbar
+    const [open,setOpen] = useState(false)
+    const [right,setRight] = useState('-350px')
+    let toggleNavbar = ()=>{
+        console.log(open)
+        if(open){
+            setRight('-350px')
+        }else{
+            setRight('0px')
+        }
+        setOpen(!open);
+    }
+
     return (
         <nav className={styles.nav} id="navbar" style={{background: `rgba(0, 0, 0, ${backgroundTransparacy})`,boxShadow: `rgb(0 0 0 / ${boxShadow}) 0px 0px 20px 6px`}} >
             <span>
@@ -49,7 +64,8 @@ function Navbar() {
                 Kailash Kejriwal
                 </p>
             </span>
-            <ul>
+            <button className={styles.hamburger} type="button" onClick={toggleNavbar} ><i className="fas fa-bars fa-xxl"></i></button>
+            <ul id="nav-list" style={{right: right}} >
                 <li><a onClick={linkClicked} title="/#profile" className="sections">Profile</a></li>
                 <li><a onClick={linkClicked} title="/#about" className="sections">About Me</a></li>
                 <li><a onClick={linkClicked} title="/#skills" className="sections">Skills</a></li>

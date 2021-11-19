@@ -41,3 +41,20 @@ canvas {
     z-index: -9999 !important;
     background-color: black;
 }
+
+.hidden_in_desktop {
+    display: none;
+}
+
+.hidden_in_mobile {
+    display: block;
+}
+
+@media screen and (min-width: 768px) {
+    .hidden_in_desktop {
+        display: block !important;
+    }
+    .hidden_in_mobile {
+        display: none !important;
+    }
+}

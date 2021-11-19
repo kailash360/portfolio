@@ -44,3 +44,46 @@
     margin: 10px 0px 0px 10px;
     font-family: "Grand Hotel";
 }
+
+.hamburger {
+    color: white !important;
+    font-size: 2em;
+    margin-top: 1rem !important;
+    margin-right: 1rem;
+    background: transparent !important;
+    border: none;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .hamburger {
+        position: absolute;
+        top: 0.8rem !important;
+        right: 1% !important;
+        display: block !important;
+    }
+    .nav ul {
+        min-width: 80%;
+        position: absolute;
+        top: 60px;
+        height: fit-content;
+        flex-direction: column;
+        justify-content: space-evenly;
+        transition: 0.5s;
+        text-align: left;
+        font-size: 1.3em;
+        padding-bottom: 50%;
+        background: rgba( 255, 255, 255, 0.8);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+        backdrop-filter: blur( 13.5px);
+        -webkit-backdrop-filter: blur( 13.5px);
+    }
+    .nav ul li {
+        margin-bottom: 1rem;
+        text-align: left;
+        width: 100%;
+    }
+    .nav ul li a {
+        color: black;
+    }
+}
