@@ -3,9 +3,9 @@ import Typed from 'typed.js'
 
 function Role() {
 
-    const roles = [ '<span style="color:blue">Full Stack Developer</span>',
-                    '<span style="color:red">Blockchain Developer</span>',
-                    '<span style="color:yellow">Technical Content Writer</span>',
+    const roles = [ '<span style="color:#bebff6">Full Stack Developer</span>',
+                    '<span style="color:#d68888">Blockchain Developer</span>',
+                    '<span style="color:#d8e9cd">Technical Content Writer</span>',
                 ]
 
     useEffect(() => {
