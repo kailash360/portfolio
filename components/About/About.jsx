@@ -16,8 +16,8 @@ function About() {
                     <br/>Currently, I have made 90+ Pull Requests, and created 30+ Issues on GitHub.
                     <br/>More information about my Open Source profile is available at <a href="http://github.com/kailash360" target="_blank" without rel="noreferrer"> GitHub | Kailash Kejriwal</a>. 
                     <br/>
-                    <br/>Apart from coding, I love to write techncial blogs on the latest and emerging technologies. 
-                    <br/>All of my blogs are available on <a href="https://www.medium.com/@kailash360" target="_blank" without rel="noreferrer">Medium | Kailash Kejriwal</a> where I post articles frequently.
+                    <br/>Apart from coding, I love to write technical blogs on the latest and emerging technologies. 
+                    <br/>All of my blogs are available on <a href="https://www.medium.com/@kailash360" target="_blank" without rel="noreferrer">Medium | Kailash Kejriwal</a>, where I post articles frequently.
                 </p>
             </div>
         </div>

@@ -41,7 +41,7 @@ function Projects() {
     return (
         <div className={styles.projects} id="projects">
             <h1>Projects</h1>
-            <p>These are the projects that I have worked upon in the past few months</p>
+            <p>These are the projects that I have worked upon in the past few months.</p>
             <div className={styles.projects_section}>
             {projects.map((project,index) =>
                 <Card
