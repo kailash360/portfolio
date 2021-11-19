@@ -43,16 +43,16 @@ canvas {
 }
 
 .hidden_in_desktop {
-    display: none;
+    display: none !important;
 }
 
 .hidden_in_mobile {
-    display: block;
+    display: block !important;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .hidden_in_desktop {
-        display: block !important;
+        display: inline-block !important;
     }
     .hidden_in_mobile {
         display: none !important;

@@ -63,7 +63,7 @@
         display: block !important;
     }
     .nav ul {
-        min-width: 80%;
+        min-width: 60%;
         position: absolute;
         top: 60px;
         height: fit-content;
@@ -84,6 +84,12 @@
         width: 100%;
     }
     .nav ul li a {
+        width: 100%;
         color: black;
+        transition: 0.1s;
+        padding-inline-end: 36%;
+    }
+    .nav ul li a i {
+        min-width: 24px;
     }
 }

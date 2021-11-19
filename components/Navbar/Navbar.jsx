@@ -66,13 +66,13 @@ function Navbar() {
             </span>
             <button className={styles.hamburger} type="button" onClick={toggleNavbar} ><i className="fas fa-bars fa-xxl"></i></button>
             <ul id="nav-list" style={{right: right}} >
-                <li><a onClick={linkClicked} title="/#profile" className="sections">Profile</a></li>
-                <li><a onClick={linkClicked} title="/#about" className="sections">About Me</a></li>
-                <li><a onClick={linkClicked} title="/#skills" className="sections">Skills</a></li>
-                <li><a onClick={linkClicked} title="/#experience" className="sections">Experience</a></li>
-                <li><a onClick={linkClicked} title="/#projects" className="sections">Projects</a></li>
-                <li><a onClick={linkClicked} title="/#blogs" className="sections">Blogs</a></li>
-                <li><a onClick={linkClicked} title="/#contact" className="sections">Contact Me</a></li>
+                <li><a onClick={linkClicked} title="/#profile" className="sections"><i className="fas fa-user-circle hidden_in_desktop"></i> Profile</a></li>
+                <li><a onClick={linkClicked} title="/#about" className="sections"><i className="fas fa-layer-group hidden_in_desktop"></i> About Me</a></li>
+                <li><a onClick={linkClicked} title="/#skills" className="sections"><i className="fas fa-code hidden_in_desktop"></i> Skills</a></li>
+                <li><a onClick={linkClicked} title="/#experience" className="sections"><i className="fas fa-building hidden_in_desktop"></i> Experience</a></li>
+                <li><a onClick={linkClicked} title="/#projects" className="sections"><i className="fas fa-cubes hidden_in_desktop"></i> Projects</a></li>
+                <li><a onClick={linkClicked} title="/#blogs" className="sections"><i className="fas fa-feather-alt hidden_in_desktop"></i> Blogs</a></li>
+                <li><a onClick={linkClicked} title="/#contact" className="sections"><i className="fas fa-id-card hidden_in_desktop"></i> Contact Me</a></li>
             </ul>
         </nav>
     )
