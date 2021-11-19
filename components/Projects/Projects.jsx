@@ -22,7 +22,7 @@ function Projects() {
     },
     {
         name:'Bloggify',
-        description:'A multi-user blogging platform, developed using ReactJS in the frontend, and NodeJS + Express in the backend, with MongoDB as the database. It also comes provides a new user witha unique image for better user experience.',
+        description:'A multi-user blogging platform, developed using ReactJS in the frontend, and NodeJS + Express in the backend, with MongoDB as the database. It also provides every new user with a unique profile image for better user experience.',
         image: '/Projects/bloggify.png',
         github: null,
         hosted: true,
