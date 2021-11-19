@@ -21,6 +21,14 @@ function Projects() {
         host_link: 'https://www.uthaan.org/'
     },
     {
+        name:'Bloggify',
+        description:'A multi-user blogging platform, developed using ReactJS in the frontend, and NodeJS + Express in the backend, with MongoDB as the database. It also comes provides a new user witha unique image for better user experience.',
+        image: '/Projects/bloggify.png',
+        github: null,
+        hosted: true,
+        host_link: 'https://bloggify-app.netlify.app/'
+    },
+    {
         name:'Quiz Bee',
         description:'A quiz game built using ReactJS and REST API, and comes with different levels of difficulty for better user experience',
         image: '/Projects/Quizmaster.png',
