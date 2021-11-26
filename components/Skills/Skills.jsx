@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from'../../styles/Skills.module.css'
-const {Icons} = require('./Icons/Icons.js')
+const {Icons} = require('../../data/Icons.js')
 
 function Skills() {
 
