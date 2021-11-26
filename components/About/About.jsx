@@ -14,7 +14,7 @@ function About() {
                     <br/>
                     <br/>Apart from coding, I love to write technical blogs on the latest and emerging technologies.All of my blogs are available on <a href="https://www.medium.com/@kailash360" target="_blank" without rel="noreferrer">Medium | Kailash Kejriwal</a>, where I post articles frequently.
                 </p>
-                <Animation></Animation>
+                {/* <Animation></Animation> */}
             </div>
         </div>
     )

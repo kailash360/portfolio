@@ -22,7 +22,9 @@
 
 .about_section p,
 .about_section div {
-    width: 50%;
+    width: 80%;
+    text-align: left;
+    margin-right: auto;
 }
 
 @media screen and (max-width: 768px) {
