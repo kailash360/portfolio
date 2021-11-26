@@ -6,11 +6,23 @@
 }
 
 .about p {
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 .about p a {
     color: rgb(177, 177, 177);
+}
+
+.about_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_section p,
+.about_section div {
+    width: 50%;
 }
 
 @media screen and (max-width: 768px) {
@@ -24,5 +36,11 @@
     .about p {
         padding: 0px;
         font-size: 1.1em;
+    }
+    .about_section {
+        flex-direction: column;
+    }
+    .about_section p {
+        width: 100%;
     }
 }
