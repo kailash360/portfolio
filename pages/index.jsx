@@ -10,6 +10,7 @@ import Blogs from '../components/Blogs/Blogs'
 import Contact from '../components/Contact/Contact'
 import Loader from '../components/Loader/Loader'
 import Script from 'next/script'
+import Meta from '../public/Profile/meta.png'
 import Particles from 'react-tsparticles'
 const particleOptions = require('../utils/particles.json')
 
@@ -35,6 +36,10 @@ export default function Home({blogs}) {
     return ( !loading?<>
       <Head>
         <title>Kailash Kejriwal</title>
+        <meta name="description" content="Hey, a Full Stack Developer here" />
+        <meta name="title" property="og:title" content="Kailash Kejriwal" />
+        <meta property="keywords" content="Kailash Kejriwal Portfolio Web Development" />
+        <meta name="image" property="og:image" content={Meta} />
       </Head>
       <Particles id="tsparticles" options={particleOptions} />
       <Navbar/>
