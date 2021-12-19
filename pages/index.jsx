@@ -18,7 +18,7 @@ export async function getStaticProps(context) {
 
     let response = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@kailash360`)
     response = await response.json()
-    let blogs = response.items
+    let blogs = response.items.slice(0,3)
 
     return {
       props: {blogs}, // will be passed to the page component as props
