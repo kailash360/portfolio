@@ -37,7 +37,14 @@ import {
     SiWeb3Dotjs,
     SiIpfs,
     SiExpress,
+    SiEthereum,
+    SiGitlab
 } from "react-icons/si";
+
+import {
+    FaCouch,
+    FaNodeJs
+} from "react-icons/fa"
 
 const data = [{
         name: 'JavaScript',
@@ -83,7 +90,7 @@ const data = [{
     },
     {
         name: 'NodeJS',
-        icon: SiNodeDotJs,
+        icon: FaNodeJs,
         options: {
             color: '#339933'
         }
@@ -303,6 +310,27 @@ const data = [{
         icon: SiExpress,
         options: {
             color: 'white'
+        }
+    },
+    {
+        name: 'Ethereum',
+        icon: SiEthereum,
+        options: {
+            color: '#3C3C3D'
+        }
+    },
+    {
+        name: 'CouchDB',
+        icon: FaCouch,
+        options: {
+            color: '#E42528'
+        }
+    },
+    {
+        name: 'GitLab',
+        icon: SiGitlab,
+        options: {
+            color: '#FCA121'
         }
     },
 ]
