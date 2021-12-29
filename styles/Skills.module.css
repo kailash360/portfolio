@@ -55,14 +55,14 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    color: white;
+    color: black;
     opacity: 0;
     z-index: 10000000000;
     cursor: pointer;
     transition: 0.2s;
     margin-top: 100px;
     font-size: 0.9em;
-    background-color: rgb(0, 60, 150);
+    background-color: #92f3f6;
     padding: 5px 15px;
     border-radius: 6px;
     text-align: center;
