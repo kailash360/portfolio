@@ -5,7 +5,7 @@ const {Icons} = require('../../data/Icons.js')
 function Skills() {
 
     const IconItem = (props) => 
-    <div className={styles.skill_item}>  
+    <div className={styles.skill_item} draggable={true}>  
         {React.createElement(props.icon,props.options)}
         <div className={styles.skill_description}>
             <h4>{props.name}</h4>
