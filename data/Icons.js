@@ -38,12 +38,20 @@ import {
     SiIpfs,
     SiExpress,
     SiEthereum,
-    SiGitlab
+    SiGitlab,
+    SiTailwindcss,
+    SiPostman,
+    SiLit,
+    SiHasura,
+    SiGraphql,
+    SiStrapi,
+    SiMaterialui
 } from "react-icons/si";
 
 import {
     FaCouch,
-    FaNodeJs
+    FaNodeJs,
+    FaHardHat
 } from "react-icons/fa"
 
 const data = [{
@@ -299,7 +307,7 @@ const data = [{
         }
     },
     {
-        name: 'IPFS Protocol',
+        name: 'IPFS',
         icon: SiIpfs,
         options: {
             color: '#65C2CB'
@@ -331,6 +339,62 @@ const data = [{
         icon: SiGitlab,
         options: {
             color: '#FCA121'
+        }
+    },
+    {
+        name: 'Tailwind CSS',
+        icon: SiTailwindcss,
+        options: {
+            color: '#06B6D4'
+        }
+    },
+    {
+        name: 'Postman',
+        icon: SiPostman,
+        options: {
+            color: '#FF6C37'
+        }
+    },
+    {
+        name: 'Lit',
+        icon: SiLit,
+        options: {
+            color: '#324FFF'
+        }
+    },
+    {
+        name: 'Hardhat',
+        icon: FaHardHat,
+        options: {
+            color: '#00FE00'
+        }
+    },
+    {
+        name: 'Hasura',
+        icon: SiHasura,
+        options: {
+            color: '#1EB4D4'
+        }
+    },
+    {
+        name: 'GraphQL',
+        icon: SiGraphql,
+        options: {
+            color: '#E10098'
+        }
+    },
+    {
+        name: 'Strapi',
+        icon: SiStrapi,
+        options: {
+            color: '#536DFE'
+        }
+    },
+    {
+        name: 'Material UI',
+        icon: SiMaterialui,
+        options: {
+            color: '#007FFF'
         }
     },
 ]

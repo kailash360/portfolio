@@ -29,15 +29,62 @@
 }
 
 .skill_icons_section svg {
-    width: 50px;
+    width: 55px;
     margin: 15px;
     height: auto;
     cursor: pointer;
     transition: 0.2s;
 }
 
-.skill_icons_section svg:hover {
+
+/* .skill_icons_section svg:hover {
     transform: scale(1.1);
+} */
+
+.skill_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.3s
+}
+
+.skill_description {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    opacity: 0;
+    z-index: 10000000000;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-top: 100px;
+    font-size: 0.9em;
+    background-color: rgb(0, 60, 150);
+    padding: 5px 15px;
+    border-radius: 6px;
+    text-align: center;
+    width: fit-content;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.781);
+}
+
+.skill_description>* {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.skill_description p {
+    font-size: 0.8em;
+}
+
+.skill_item:hover {
+    transform: scale(1.1);
+}
+
+.skill_item:hover .skill_description {
+    opacity: 1;
 }
 
 @media screen and (max-width: 768px) {
