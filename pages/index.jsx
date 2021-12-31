@@ -8,6 +8,7 @@ import Experience from '../components/Experience/Experience'
 import Projects from '../components/Projects/Projects'
 import Blogs from '../components/Blogs/Blogs'   
 import Contact from '../components/Contact/Contact'
+import Patreon from '../components/Patreon/Patreon'
 import Loader from '../components/Loader/Loader'
 import Script from 'next/script'
 import Meta from '../public/Profile/meta.png'
@@ -42,6 +43,7 @@ export default function Home({blogs}) {
         <meta name="image" property="og:image" content={Meta} />
       </Head>
       <Particles id="tsparticles" options={particleOptions} />
+      <Patreon/>
       <Navbar/>
       <Profile/>
       <About/>
