@@ -45,7 +45,8 @@ import {
     SiHasura,
     SiGraphql,
     SiStrapi,
-    SiMaterialui
+    SiMaterialui,
+    SiBitbucket
 } from "react-icons/si";
 
 import {
@@ -395,6 +396,13 @@ const data = [{
         icon: SiMaterialui,
         options: {
             color: '#007FFF'
+        }
+    },
+    {
+        name: 'Bitbucket',
+        icon: SiBitbucket,
+        options: {
+            color: '#0052CC'
         }
     },
 ]
