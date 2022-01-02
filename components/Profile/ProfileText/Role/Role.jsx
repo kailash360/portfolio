@@ -5,6 +5,7 @@ function Role() {
 
     const roles = [ '<span style="color:#bebff6">Full Stack Developer</span>',
                     '<span style="color:#d68888">Blockchain Developer</span>',
+                    '<span style="color:#79f0fc">Open Source Enthusiast</span>',
                     '<span style="color:#d8e9cd">Technical Content Writer</span>',
                 ]
 
