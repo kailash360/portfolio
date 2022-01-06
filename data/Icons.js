@@ -46,7 +46,8 @@ import {
     SiGraphql,
     SiStrapi,
     SiMaterialui,
-    SiBitbucket
+    SiBitbucket,
+    SiShopify
 } from "react-icons/si";
 
 import {
@@ -403,6 +404,13 @@ const data = [{
         icon: SiBitbucket,
         options: {
             color: '#0052CC'
+        }
+    },
+    {
+        name: 'Shopify',
+        icon: SiShopify,
+        options: {
+            color: '#7AB55C'
         }
     },
 ]
