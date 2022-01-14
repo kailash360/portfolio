@@ -47,7 +47,8 @@ import {
     SiStrapi,
     SiMaterialui,
     SiBitbucket,
-    SiShopify
+    SiShopify,
+    SiPolymerproject
 } from "react-icons/si";
 
 import {
@@ -411,6 +412,13 @@ const data = [{
         icon: SiShopify,
         options: {
             color: '#7AB55C'
+        }
+    },
+    {
+        name: 'Polymer',
+        icon: SiPolymerproject,
+        options: {
+            color: '#FF4470'
         }
     },
 ]
