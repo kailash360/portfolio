@@ -48,7 +48,8 @@ import {
     SiMaterialui,
     SiBitbucket,
     SiShopify,
-    SiPolymerproject
+    SiPolymerproject,
+    SiRedis
 } from "react-icons/si";
 
 import {
@@ -419,6 +420,13 @@ const data = [{
         icon: SiPolymerproject,
         options: {
             color: '#FF4470'
+        }
+    },
+    {
+        name: 'Redis',
+        icon: SiRedis,
+        options: {
+            color: '#DC382D'
         }
     },
 ]
