@@ -51,7 +51,8 @@ import {
     SiBitbucket,
     SiShopify,
     SiPolymerproject,
-    SiRedis
+    SiRedis,
+    SiGo,
 } from "react-icons/si";
 
 import {
@@ -60,13 +61,7 @@ import {
     FaHardHat
 } from "react-icons/fa"
 
-import GolangIcon from "./Additional Icons/Go.svg"
 import ChainLinkIcon from "./Additional Icons/Chainlink.svg"
-
-const Golang = () => < Image src = { GolangIcon }
-width = { 70 }
-height = { 55 }
-/>
 
 const ChainLink = () => < Image src = { ChainLinkIcon }
 width = { 70 }
@@ -445,17 +440,17 @@ const data = [{
         }
     },
     {
-        name: 'Golang',
-        icon: Golang,
+        name: 'Go',
+        icon: SiGo,
         options: {
-            color: '#DC382D'
+            color: '#00ADD8'
         }
     },
     {
         name: 'ChainLink',
         icon: ChainLink,
         options: {
-            color: '#DC382D'
+            color: '#DC382D',
         }
     },
 ]
