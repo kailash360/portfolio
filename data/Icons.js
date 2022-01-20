@@ -53,6 +53,7 @@ import {
     SiPolymerproject,
     SiRedis,
     SiGo,
+    SiChainlink
 } from "react-icons/si";
 
 import {
@@ -60,13 +61,6 @@ import {
     FaNodeJs,
     FaHardHat
 } from "react-icons/fa"
-
-import ChainLinkIcon from "./Additional Icons/Chainlink.svg"
-
-const ChainLink = () => < Image src = { ChainLinkIcon }
-width = { 70 }
-height = { 55 }
-/>
 
 const data = [{
         name: 'JavaScript',
@@ -448,9 +442,9 @@ const data = [{
     },
     {
         name: 'ChainLink',
-        icon: ChainLink,
+        icon: SiChainlink,
         options: {
-            color: '#DC382D',
+            color: '#375BD2',
         }
     },
 ]
