@@ -61,8 +61,14 @@ import {
 } from "react-icons/fa"
 
 import GolangIcon from "./Additional Icons/Go.svg"
+import ChainLinkIcon from "./Additional Icons/Chainlink.svg"
 
 const Golang = () => < Image src = { GolangIcon }
+width = { 70 }
+height = { 55 }
+/>
+
+const ChainLink = () => < Image src = { ChainLinkIcon }
 width = { 70 }
 height = { 55 }
 />
@@ -441,6 +447,13 @@ const data = [{
     {
         name: 'Golang',
         icon: Golang,
+        options: {
+            color: '#DC382D'
+        }
+    },
+    {
+        name: 'ChainLink',
+        icon: ChainLink,
         options: {
             color: '#DC382D'
         }
