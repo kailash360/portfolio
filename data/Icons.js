@@ -53,7 +53,8 @@ import {
     SiPolymerproject,
     SiRedis,
     SiGo,
-    SiChainlink
+    SiChainlink,
+    SiCypress
 } from "react-icons/si";
 
 import {
@@ -445,6 +446,13 @@ const data = [{
         icon: SiChainlink,
         options: {
             color: '#375BD2',
+        }
+    },
+    {
+        name: 'Cypress',
+        icon: SiCypress,
+        options: {
+            color: '#13448F',
         }
     },
 ]
