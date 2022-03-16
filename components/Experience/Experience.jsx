@@ -20,6 +20,7 @@ function Experience() {
                         to={job.to}
                         color={job.color}
                         logo = {job.logo}
+                        activities={job.activities}
                     />
                 )}
                 </div>
