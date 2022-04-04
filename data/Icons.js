@@ -54,7 +54,8 @@ import {
     SiRedis,
     SiGo,
     SiChainlink,
-    SiCypress
+    SiCypress,
+    SiChakraui
 } from "react-icons/si";
 
 import {
@@ -453,6 +454,13 @@ const data = [{
         icon: SiCypress,
         options: {
             color: '#13448F',
+        }
+    },
+    {
+        name: 'Chakra UI',
+        icon: SiChakraui,
+        options: {
+            color: '#319795',
         }
     },
 ]
