@@ -20,7 +20,6 @@ import {
     SiLinux,
     SiMocha,
     SiJest,
-    SiNextDotJs,
     SiPostgresql,
     SiRedux,
     SiNetlify,
@@ -195,13 +194,6 @@ const data = [{
         icon: SiJest,
         options: {
             color: '#C21325'
-        }
-    },
-    {
-        name: 'NextJS',
-        icon: SiNextDotJs,
-        options: {
-            color: '#000000'
         }
     },
     {
