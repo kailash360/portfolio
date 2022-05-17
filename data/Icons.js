@@ -20,7 +20,6 @@ import {
     SiLinux,
     SiMocha,
     SiJest,
-    SiNextDotJs,
     SiPostgresql,
     SiRedux,
     SiNetlify,
@@ -54,7 +53,8 @@ import {
     SiRedis,
     SiGo,
     SiChainlink,
-    SiCypress
+    SiCypress,
+    SiChakraui
 } from "react-icons/si";
 
 import {
@@ -194,13 +194,6 @@ const data = [{
         icon: SiJest,
         options: {
             color: '#C21325'
-        }
-    },
-    {
-        name: 'NextJS',
-        icon: SiNextDotJs,
-        options: {
-            color: '#000000'
         }
     },
     {
@@ -453,6 +446,13 @@ const data = [{
         icon: SiCypress,
         options: {
             color: '#13448F',
+        }
+    },
+    {
+        name: 'Chakra UI',
+        icon: SiChakraui,
+        options: {
+            color: '#319795',
         }
     },
 ]
