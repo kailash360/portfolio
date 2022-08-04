@@ -1,4 +1,12 @@
 export const ProjectsList = [{
+        name: 'DeDocs',
+        description: 'A decentralized document wallet that makes it easy and simple to store and manage your documents in a secured and safe environment',
+        image: '/Projects/dedocs.png',
+        github: 'https://github.com/kailash360/DeDocs',
+        hosted: false,
+        host_link: 'https://github.com/kailash360/DeDocs'
+    },
+    {
         name: 'DeTrace',
         description: 'A decentralized supply-chain management system that tracks down the product distribution from manufacturer-level to consumer-level using the blockchain events',
         image: '/Projects/detrace.jpeg',
