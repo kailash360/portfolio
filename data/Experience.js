@@ -8,12 +8,12 @@ export const ExperienceList = [{
         activities: 'Woked on developing and adding new features to a product feedback system under Python Software Foundation'
     },
     {
-        company: "WalletSocket",
+        company: "Remaster",
         role: "Backend Blockchain Developer",
         from: "January 2022",
         to: "Present",
         color: "linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%)",
-        logo: 'https://www.blockchain.com/static/img/prices/prices-deso.png',
+        logo: 'https://res.cloudinary.com/dl9uznzfl/image/upload/v1663603862/portfolio/experience/remaster/1647124055001-removebg-preview_r5toyd.png',
         activities: 'Automated document generation process using Ciceromark template and Concerto data model for an NFT marketplace'
     },
     {
