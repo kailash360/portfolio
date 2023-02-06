@@ -54,7 +54,9 @@ import {
     SiGo,
     SiChainlink,
     SiCypress,
-    SiChakraui
+    SiChakraui,
+    SiOpenZeppelin,
+    SiAuth0,
 } from "react-icons/si";
 
 import {
@@ -453,6 +455,20 @@ const data = [{
         icon: SiChakraui,
         options: {
             color: '#319795',
+        }
+    },
+    {
+        name: 'Open Zeppelin',
+        icon: SiOpenZeppelin,
+        options: {
+            color: '#4E5EE4',
+        }
+    },
+    {
+        name: 'Auth0',
+        icon: SiAuth0,
+        options: {
+            color: '#EB5424',
         }
     },
 ]
