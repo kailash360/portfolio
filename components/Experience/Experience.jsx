@@ -21,7 +21,7 @@ function Experience() {
                             contentArrowStyle={{ borderRight: `7px solid rgba(0,0,0,0)` }}
                             date={`${job.from} - ${job.to}`}
                             iconStyle={{ background: 'rgba(255,255,255)', color: '#fff' }}
-                            icon={<Icon url={job.logo} />}
+                            icon={<Icon url={job.logo} className={styles.rounded} />}
                         >
                             <h3 className="vertical-timeline-element-title">{job.company}</h3>
                             <h4 className="vertical-timeline-element-subtitle">{job.role}</h4>

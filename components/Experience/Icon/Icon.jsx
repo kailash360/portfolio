@@ -1,9 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
 
-function Icon({url}) {
+function Icon(props) {
+
   return (
-    <Image src={url} alt = "" height="100" width="100" />
+    <Image {...props} src={props.url} alt = "" height="100" width="100"/>
   )
 }
 

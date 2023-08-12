@@ -7,7 +7,7 @@ function Card({key,role,company,from,to,color,logo,activities}) {
         <div className={styles.experienceCard}>
             <div className={styles.cover_section} style={{background: color}} >
                 <h3>{company}</h3>
-                <div className={styles.company_logo} style={{backgroundImage:`url(${logo})` }} ></div>
+                <div className={styles.company_logo} style={{backgroundImage:`url(${logo})`}} ></div>
             </div>
             <div className={styles.information_section}>
                 <h2 className={styles.role}>{role}</h2>
