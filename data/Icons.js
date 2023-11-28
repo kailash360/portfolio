@@ -57,6 +57,7 @@ import {
     SiChakraui,
     SiOpenZeppelin,
     SiAuth0,
+    SiPlaywright
 } from "react-icons/si";
 
 import {
@@ -70,6 +71,13 @@ const data = [{
         icon: SiJavascript,
         options: {
             color: 'yellow'
+        }
+    },
+    {
+        name: 'Playwright',
+        icon: SiPlaywright,
+        options: {
+            color: '#2EAD33',
         }
     },
     {
